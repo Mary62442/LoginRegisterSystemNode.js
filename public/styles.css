@@ -1,0 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+.container {
+    width:100%;
+    height:100vh;
+    background: linear-gradient(to top right,#89a1d6,#1e315d); 
+    display:flex;
+    justify-content:center;    
+    align-items:flex-start;           
+}
+.label {
+    background-color:white;
+    border-radius:3px;
+    background: 
+    radial-gradient(circle at top left,transparent 70%,
+    rgba(0,0,0,.2) 0),
+    radial-gradient(circle at top center,transparent 70%,
+    rgba(0,0,0,.2) 0),
+    linear-gradient(0deg,rgba(206,217,242,.7),hsla(0,0%,100%,.7)),
+    url('https://diegomary.github.io/static/media/windRoseDark.484b3856.png'),
+    linear-gradient(0deg,#d0dbf3,#fff);
+    background-position: 100%,100%,100%,100px 50px,100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top:2em;
+    padding:2em;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);     
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;           
+}
+
+.label h2 {
+    margin:0;
+    padding:1em 0 0.2em 0;
+}
+
+.label hr {
+    border: none;
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(270deg,rgba(4,13,32,0),#040d20,rgba(4,13,32,0));
+}
+
+.label a > button {
+    background: #ff7403;
+    color: #fff;
+    text-decoration: none;                
+    box-shadow: 0 3px 1px rgba(0,0,0,.3);                
+    border: none;
+    border-radius: 3px;
+    padding: 1em 2em;                
+    transition: all .1s linear;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.label p {
+    text-align:center;
+}
+
+.label a > button:hover {
+    background-color: #b85300;   
+    box-shadow: none;
+}
