@@ -1,3 +1,5 @@
+[![DeepScan grade](https://deepscan.io/api/teams/3675/projects/5408/branches/41455/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3675&pid=5408&bid=41455)
+
 # Login Register System in Node.js
 ### A System for registering new users in an SQL Server database, and logging in users already present.
 
